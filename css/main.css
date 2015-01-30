@@ -22,6 +22,10 @@ h1 {
   text-align: center;
 }
 
+main {
+  padding: 1em;
+}
+
 h2 {
   font-weight: normal;
   font-size: 3rem;
@@ -103,6 +107,12 @@ figcaption {
   padding: 0.25em;
 }
 
+footer {
+  background-color: #b5b199;
+  text-align: right;
+  padding: 1em
+}
+
 nav {
   text-align: center;
 }
@@ -125,4 +135,8 @@ nav a {
   color: #fff;
   border-radius: 4px;
   width: 5em;
+}
+
+.neil {
+  background-color: #9a9999;
 }
