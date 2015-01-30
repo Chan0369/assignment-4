@@ -11,7 +11,7 @@ header {
 }
 
 h1 {
-  padding: 1em 1em 1em 1em;
+  padding: 1em 1em 0.5em 1em;
   border-radius: 10px;
   margin: 0em;
   font-weight: normal;
@@ -40,6 +40,7 @@ h3 {
   line-height: .5;
   text-align: left;
   color: #444;
+  margin: 0em;
 
 }
 
@@ -53,6 +54,7 @@ ol {
 
 li {
   font-weight: bold;
+  color: #000
 }
 
 a {
@@ -81,8 +83,18 @@ blockquote {
   font-style: italic;
 }
 
+figure{
+  background-color: #b5b199;
+  padding: 1em;
+}
+img {
+  width: 100%;
+}
+
 figcaption {
   font-style: italic;
+  text-align: center;
+  padding: 0.25em;
 }
 
 nav {
