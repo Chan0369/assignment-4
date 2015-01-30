@@ -2,16 +2,24 @@ html {
   background-color: #9a9999
 }
 
-h1 {
+body {
+  margin: 0em;
+}
+
+header {
   background-color: #b5b199;
-  padding: 1em 2em 1em 2em;
+}
+
+h1 {
+  padding: 1em 1em 1em 1em;
   border-radius: 10px;
+  margin: 0em;
   font-weight: normal;
   font-size: 5rem;
   font-style: normal;
   font-family: 'Francois One', sans-serif;
   line-height: .5;
-  text-align: left;
+  text-align: center;
 }
 
 h2 {
@@ -78,16 +86,26 @@ figcaption {
 }
 
 nav {
-  background-color: darkred;
   text-align: center;
 }
 
 nav ol {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0em;
+  padding: 1em;
 }
 
 nav li {
   display: inline-block;
+  padding: 0.25em;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: darkred;
+  color: #fff;
+  text-dectoration: none;
+  border-radius: 4px;
+  width: 5em;
 }
