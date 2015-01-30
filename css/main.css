@@ -5,7 +5,6 @@ html {
 h1 {
   background-color: #b5b199;
   padding: 1em 2em 1em 2em;
-  border: 10px solid #000;
   border-radius: 10px;
   font-weight: normal;
   font-size: 5rem;
@@ -49,7 +48,7 @@ li {
 }
 
 a {
-  color: brown;
+  color: darkgrey;
 }
 
 a:hover {
@@ -79,6 +78,16 @@ figcaption {
 }
 
 nav {
-  background-color: burgundy;
+  background-color: darkred;
   text-align: center;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
 }
