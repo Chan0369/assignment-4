@@ -34,6 +34,7 @@ h2 {
   line-height: .5;
   text-align: left;
   color: #444;
+  margin: 0.5em 1em 0.5em 0em;
 }
 
 h3 {
@@ -45,6 +46,7 @@ h3 {
   text-align: left;
   color: #444;
   margin: 0em;
+  padding: 0.5em 1em 0.5em 0em;
 
 }
 
@@ -53,7 +55,7 @@ p {
 }
 
 ol {
-  padding: 0;
+  margin: 0em;
 }
 
 li {
@@ -61,7 +63,8 @@ li {
 }
 
 a {
-  color: darkgrey;
+  color: #0d344d;
+  margin: 0em;
 }
 
 a:hover {
@@ -75,6 +78,7 @@ dt {
 .planetlist {
   list-style-type: disc;
   padding: 30px;
+  padding: 0.5em 1em 0.5em 1em;
 }
 
 b {
@@ -90,7 +94,7 @@ blockquote {
 }
 
 cite {
-  padding: 1em;
+  padding: 0.25em;
 }
 
 figure{
@@ -109,8 +113,8 @@ figcaption {
 
 footer {
   background-color: #b5b199;
-  text-align: right;
-  padding: 1em
+  text-align: left;
+  padding: 1em 1em 1em 2em;
 }
 
 nav {
@@ -139,4 +143,5 @@ nav a {
 
 .neil {
   background-color: #9a9999;
+  text-align: right;
 }
